@@ -21,5 +21,5 @@ function domain (arr1, arr2, arr3){
         console.log(phrase);
 }
 
-console.log(domain(pronoun, adj, noun));
+domain(pronoun, adj, noun);
 
