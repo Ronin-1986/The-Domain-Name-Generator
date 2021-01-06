@@ -11,13 +11,14 @@ function domain (arr1, arr2, arr3){
               //phrase += pronoun[i] + adj[i];
           for(k = 0 ; k < pronoun.length; k++){
             for(l = 0; l < pronoun.length ; l++){
-                phrase += pronoun[i] + adj[j] + noun[k] + domain1[l] + " ";
+                phrase += pronoun[i] + adj[j] + noun[k] + domain1[l] + "\n";
+                
+              }
             }
-          }
             
+          }
         }
-    }
-    return console.log(phrase);
+        console.log(phrase);
 }
 
 console.log(domain(pronoun, adj, noun));
